@@ -12,3 +12,8 @@ services:
     image: docker.io/illenko/currencies-mocks:latest
     ports:
       - "8080:8080"
+
+  statping-ng:
+    image: adamboutcher/statping-ng
+    ports:
+      - "8083:8080"
